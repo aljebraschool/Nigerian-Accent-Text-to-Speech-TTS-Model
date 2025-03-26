@@ -1,0 +1,33 @@
+# Core dependencies
+tensorflow>=2.13.0
+torch>=2.0.0
+transformers[tensorflow,torch]>=4.30.0
+datasets>=2.14.0
+tf-keras>=2.13.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.1
+speechbrain 
+
+# Data handling
+pandas
+numpy
+
+# Progress bars
+tqdm
+
+torchaudio
+accelerate
+
+ipywidgets
+
+resampy
+
+scipy 
+
+sounddevice
+
+
+
+
