@@ -12,7 +12,16 @@ This project fine-tunes a pre-trained SpeechT5 model to generate Nigerian-accent
 - librosa
 - pandas
 - tqdm
+- tensorflow
+- torch
+- tf-keras
+- datasets
+- speechbrain
+- numpy
+- torchaudio
+- accelerate
 - Transformers (HuggingFace)
+Find the full list in requirements.txt file
 
 ## Dataset Structure
 The dataset consists of 500 audio-text pairs. Each sample includes:
