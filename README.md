@@ -30,6 +30,7 @@ The dataset consists of 500 audio-text pairs. Each sample includes:
 - A corresponding speech audio file, resampled to 16kHz and converted to mono.
 - Speaker annotations for better generalization across different Nigerian accents.
 
+``` bash
   tts_data/
 │
 ├── pleshy_1/
@@ -43,6 +44,8 @@ The dataset consists of 500 audio-text pairs. Each sample includes:
 │   ├── audio1.wav
 │   ├── audio2.wav
 │   └── ...
+
+```
 
 ### Preprocessing Steps
 Preprocessing involves:
@@ -138,6 +141,7 @@ training_args = Seq2SeqTrainingArguments(
 ```
 ## Training Progress
 ![image](https://github.com/user-attachments/assets/4e4eb1be-3a68-4afe-a8a9-1249728a8c53)
+
 The final model checkpoint is uploaded to the Hugging Face Hub.
 
 ## Model Deployment
