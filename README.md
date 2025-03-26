@@ -21,6 +21,7 @@ This project fine-tunes a pre-trained SpeechT5 model to generate Nigerian-accent
 - torchaudio
 - accelerate
 - Transformers (HuggingFace)
+
 Find the full list in requirements.txt file
 
 ## Dataset Structure
